@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<!-- 包名:jsp,继承自struts-default;即表示访问http://localhost:8080/MyFirstSH/jsp/register 将会处罚下面的action-->
+    <package name="jsp" namespace="/jsp" extends="struts-default">
+        <action name="register" class="com.user.action.Register">
+        	<result name="success">/jsp/registerSuccess.jsp</result>
+<!--         	接收到成功的message -success 后跳转 相对路径/jsp/registerSuccess.jsp 页面 -->
+        </action>
+    </package>
+</struts>
