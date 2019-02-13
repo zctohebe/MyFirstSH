@@ -52,5 +52,6 @@ public class Register extends ActionSupport {
 		//nihao
 		//buhao
 		return SUCCESS;
+		//jgsdgjsadgjasj
 	}
 }
