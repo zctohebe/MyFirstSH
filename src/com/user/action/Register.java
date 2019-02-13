@@ -49,6 +49,7 @@ public class Register extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
+		//nihao develop
 		Student stu = new Student();
 		stu.setUsername(username);
 		stu.setPassword(password);
