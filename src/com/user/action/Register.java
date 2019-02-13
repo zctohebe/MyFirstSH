@@ -7,7 +7,7 @@ import com.user.entity.Student;
 import com.user.service.StudentService;
 import com.user.serviceImpl.StudentServiceImpl;
 
-//实现ActionSupport action类封装了HTTP请求参数，类里面应该包含与请求参数对应的属性，并为属性提供get，set方法
+//瀹炵幇ActionSupport action绫诲皝瑁呬簡HTTP璇锋眰鍙傛暟锛岀被閲岄潰搴旇鍖呭惈涓庤姹傚弬鏁板搴旂殑灞炴�э紝骞朵负灞炴�ф彁渚沢et锛宻et鏂规硶
 public class Register extends ActionSupport {
 	private static final long serialVersionUID = 1L;
 	private String username;
