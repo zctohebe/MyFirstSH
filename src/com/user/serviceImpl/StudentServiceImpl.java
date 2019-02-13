@@ -10,9 +10,6 @@ public class StudentServiceImpl implements StudentService {
 	@Override
 	public void saveStudent(Student student) {
 		// TODO Auto-generated method stub
-		//develop2 commit
-		StudentDao studentDao = new StudentDaoImpl();
-		studentDao.saveStudent(student);
 	}
 
 }
