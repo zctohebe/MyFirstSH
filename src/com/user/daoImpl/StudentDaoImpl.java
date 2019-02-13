@@ -11,7 +11,6 @@ public class StudentDaoImpl implements StudentDao {
 
 	@Override
 	public void saveStudent(Student stu) {
-		//hhhhhhh
 		Session session = HibernateUtils.openSession();
 		Transaction tx = session.beginTransaction();
 		try {
