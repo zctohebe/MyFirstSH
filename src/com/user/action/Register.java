@@ -49,14 +49,6 @@ public class Register extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
-		Student stu = new Student();
-		stu.setUsername(username);
-		stu.setPassword(password);
-		stu.setAge(age);
-		java.sql.Date date = new java.sql.Date(new java.util.Date().getTime());
-		stu.setDate(date);
-		StudentService ss = new StudentServiceImpl();
-		ss.saveStudent(stu);
 		return SUCCESS;
 	}
 }
