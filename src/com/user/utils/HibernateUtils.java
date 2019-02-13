@@ -12,13 +12,11 @@ public class HibernateUtils {
 	}
 
 	public static Session openSession() {
-		//asdjhj
 		Session session = sessionFactory.openSession();
 		return session;
 	}
 
 	public static void closeSession(Session session) {
-		//asdlh
 		if (null != session) {
 			session.close();
 		}
